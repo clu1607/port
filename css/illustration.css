@@ -1,0 +1,33 @@
+.illustration {
+  position: relative;
+  display: block;
+  margin:auto;
+  padding: 2em;
+  width: 90%;
+  line-height: 1.5em;
+  text-align: center;
+}
+.illustration img {
+  width: 540px;
+  height:540px;
+  padding: 2em;
+  margin: 1em;
+  object-fit: cover;
+  background-color: white;
+  transition: all .2s ease-in-out;
+}
+.title{
+  color:#857272;
+  margin-bottom: 1em;
+  font-family:'Abril Fatface', cursive;
+  letter-spacing: 2px;
+  font-size: 2em;
+  font-style: italic;
+  line-height: 1em;
+}
+@media only screen and (max-width: 1425px){
+  .illustration img{
+    width: 400px;
+    height:400px;
+  }
+}

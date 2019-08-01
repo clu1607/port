@@ -1,0 +1,122 @@
+body{
+	margin:5em;
+  color:#443E3F;
+  /*
+	background-color: #FAF1F3;
+  background: linear-gradient(to right bottom, #dde6f9 50%, #f9e0dd 50%);
+  */
+  background-color: #FAF1F3;
+  background: linear-gradient(to right bottom, #dde6f9 50%, #f9e0dd 50%);
+	background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+header{
+  margin:auto;
+  text-align: center;
+  width:80%;
+  font-size: 1.5em;
+  padding-bottom: 4em;
+}
+a{
+  color:#443E3F;
+  text-decoration: none;
+}
+.left{
+	float:left;
+	font-size: 2em;
+	letter-spacing: 5px;
+}
+.right{
+	float:right;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.right a{
+	color:#615053;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-variant: small-caps;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+nav ul li > a{
+	position:relative;
+	text-decoration: none;
+}
+nav ul li > a:before{
+ 	  content: "";
+  	position: absolute;
+  	width: 100%;
+  	height: 2px;
+  	bottom: 0;
+  	left: 0;
+  	background-color: rgba(255,174,158,1);
+  	visibility: hidden;
+  	-webkit-transform: scaleX(0);
+  	transform: scaleX(0);
+  	-webkit-transition: all 0.3s ease-in-out 0s;
+  	transition: all 0.3s ease-in-out 0s;
+}
+nav ul li > a:hover:before {
+  	visibility: visible;
+  	-webkit-transform: scaleX(1);
+  	transform: scaleX(1);
+}
+nav ul li ul{
+  display: none;
+  position:absolute;
+  left:-3.7em;
+  width:250px;
+  background-color: white;
+  font-size: .8em;
+
+  font-weight: 100;
+  z-index: 999;
+}
+
+.hello{
+  display:block;
+  background-image: url('../piranhayoongs.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding:3em;
+  width:65%;
+  height:50vh;
+  margin:auto;
+  border:10px solid white;
+}
+.hello img{
+  width:80%;
+}
+@media only screen and (max-width: 890px){
+    body{
+      margin-left:1em;
+      margin-right:1em;
+      margin-top:3em;
+    }
+    
+}
+@media only screen and (max-width: 730px){
+    .left, .right{
+      float:none;
+    }
+    header{
+      padding-bottom: 0;
+    }
+}

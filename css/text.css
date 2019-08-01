@@ -1,0 +1,81 @@
+.textbg{
+  position:relative;
+  color: white;
+  text-align: center;
+  bottom:0em;
+  left:0em;
+  font-size:3em;
+  font-style:italic;
+  font-family:'Abril Fatface', cursive;
+}
+.firstl{
+	position:relative;
+	left:.5em;
+}
+
+.rectangle1{
+	position:absolute;
+	width:80px;
+	height:40px;
+	background-color: rgba(255,174,158,1);
+	top:13em;
+	right:20%;
+}
+.rectangle2{
+	position:absolute;
+	width:80px;
+	height:40px;
+	background-color: rgba(224,87,95,1);
+	top:15.5em;
+	right:20%;
+}
+.rectangle3{
+	position:absolute;
+	width:80px;
+	height:40px;
+	background-color: rgba(173,77,90,1);
+	top:18em;
+	right:20%;
+}
+.rectangle4{
+	position:absolute;
+	width:80px;
+	height:40px;
+	background-color: rgba(122,165,219,1);
+	top:20.5em;
+	right:20%;
+}
+.rectangle5{
+	position:absolute;
+	width:80px;
+	height:40px;
+	background-color: rgba(170,216,106,1);
+	top:23em;
+	right:20%;
+}
+.verticalleft{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position:relative;
+  top:0em;
+  float:left;
+  left:-4em;
+  font-size:1.5em;
+  font-style:italic;
+  font-family:'Abril Fatface', cursive;
+  color:#9C8586;
+  letter-spacing: 2px;
+}
+.verticalright{
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  position:relative;
+  top:10em;
+  float:right;
+  right:-4em;
+  font-size:1.5em;
+  font-style:italic;
+  font-family:'Abril Fatface', cursive;
+  color:#9C8586;
+  letter-spacing: 2px;
+}

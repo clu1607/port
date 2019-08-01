@@ -1,0 +1,86 @@
+.aboutwrap {
+  position:absolute;
+      margin:auto;
+      top:0;
+      bottom:0;
+      left:-10em;
+      right:0;
+  padding: 1em;
+  width: 80%;
+  height:500px;
+  line-height: 1.5em;
+  text-align: center;
+  z-index: -999;
+}
+.about img{
+  width:700px;
+}
+.info{
+  position: absolute;
+  top:30%;
+  right:8em;
+  background-color: white;
+  padding:2em;
+  width:30%;
+  font-weight: 100;
+}
+.color1{
+  color:#F9A49C;
+}
+.color2{
+  color:#87AFF7;
+}
+.title{
+  color:#857272;
+  margin-bottom: 1em;
+  font-family:'Abril Fatface', cursive;
+  letter-spacing: 2px;
+  font-size: 2em;
+  font-style: italic;
+  line-height: 1em;
+  /*
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  position:absolute;
+  top:1.3em;
+  right:3em;
+  font-size:2.5em;
+  font-style:italic;
+  font-family:'Abril Fatface', cursive;
+  color:#9C8586;
+  letter-spacing: 3px;
+  */
+}
+
+@media only screen and (max-width: 1620px){
+    .info {
+        right:8em;
+    }
+}
+@media only screen and (max-width: 1295px){
+    .info {
+        top:25%;
+    }
+}
+@media only screen and (max-width: 1105px){
+    .info {
+        top:40%;
+        width:240px;
+    }
+
+}
+@media only screen and (max-width: 730px){
+    .aboutwrap{
+      padding: 0;
+      top:-3em;
+    }
+    .info{
+      position:absolute;
+      margin:auto;
+      top:48%;
+      bottom:0;
+      left:40%;
+      right:0;
+      height:250px;
+    }
+}
