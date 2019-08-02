@@ -21,6 +21,12 @@ a{
   color:#443E3F;
   text-decoration: none;
 }
+a:hover{
+  color:#C4B5B8;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
 .left{
 	float:left;
 	font-size: 2em;
