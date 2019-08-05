@@ -1,4 +1,4 @@
-.design, .olympics{
+.design, .olympics, .lyrics {
   position: relative;
   display: block;
   margin:auto;
@@ -33,9 +33,15 @@
   padding:.5em;
   margin:.5em;
 }
+.lyrics img{
+  height:500px;
+  padding: 2em;
+  margin:1em;
+  background-color: white;
+}
 .title{
   color:#857272;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   font-family:'Abril Fatface', cursive;
   letter-spacing: 2px;
   font-size: 1.8em;
@@ -146,6 +152,10 @@
    
 }
 @media only screen and (max-width: 1360px){
+  .lyrics img{
+    width:70%;
+    height:100%;
+  }
     .sandwich{
       width:70%;
       margin:auto;
