@@ -1,4 +1,4 @@
-.design, .olympics, .pouch {
+.design, .olympics{
   position: relative;
   display: block;
   margin:auto;
@@ -32,11 +32,6 @@
   background-color: white;
   padding:.5em;
   margin:.5em;
-}
-.pouch img{
-  width:70%;
-  padding: 2em;
-  background-color: white;
 }
 .title{
   color:#857272;
