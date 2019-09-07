@@ -1,4 +1,4 @@
-.design, .olympics, .lyrics {
+.design, .olympics, .lyrics, .signers {
   position: relative;
   display: block;
   margin:auto;
@@ -6,6 +6,12 @@
   width: 90%;
   line-height: 1.5em;
   text-align: center;
+}
+.signers img{
+  width:23vw;
+  margin:.5em;
+  background-color: white;
+  padding:.75em;
 }
 .design-info{
   position: relative;
@@ -32,6 +38,15 @@
   background-color: white;
   padding:.5em;
   margin:.5em;
+}
+.lyrics{
+  position: relative;
+  display: block;
+  margin:auto;
+  padding: 2em;
+  width: 90%;
+  line-height: 1.5em;
+  text-align: center;
 }
 .lyrics img{
   height:500px;
@@ -153,8 +168,7 @@
 }
 @media only screen and (max-width: 1360px){
   .lyrics img{
-    width:70%;
-    height:100%;
+    height:400px;
   }
     .sandwich{
       width:70%;
@@ -197,4 +211,15 @@
       color:#857272;
       padding-left: 0em;
     }
+}
+@media only screen and (max-width: 1158px){
+  .lyrics img{
+    width:70%;
+    height:100%;
+  }
+  .signers img{
+    width:70%;
+    background-color: white;
+    padding:2em;
+  }
 }

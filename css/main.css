@@ -6,8 +6,11 @@ body{
   background: linear-gradient(to right bottom, #dde6f9 50%, #f9e0dd 50%);
   */
   background-color: #FAF1F3;
+  /*
   background: linear-gradient(to right bottom, #dde6f9 50%, #f9e0dd 50%);
-	background-attachment: fixed;
+	*/
+  background-image: linear-gradient(#dde6f9, #f9e0dd);
+  background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
 header{
