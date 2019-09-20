@@ -40,12 +40,17 @@ p{
 }
 
 @media only screen and (max-width: 1220px){
+  /*
     .image {
         position: initial;
         width:60%;
         float: left;
         left:0;
         bottom:0;
+    }
+    */
+    .image {
+      display: none;
     }
     .info{
       text-align: left;
@@ -59,7 +64,7 @@ p{
           bottom:0;
           left:0;
           right:0;
-      padding: 1em;
+      padding: 2em;
       width: 80%;
       line-height: 1.5em;
   

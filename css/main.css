@@ -64,7 +64,7 @@ a:hover{
   animation-fill-mode: forwards;*/
 }
 .right a{
-	color:#2A2A2A;
+	color:#29335B;
 	text-decoration: none;
 	font-size: 1.1em;
 	font-variant: small-caps;
@@ -160,14 +160,15 @@ nav ul li ul{
 }
 .hello{
   position: fixed;
-  bottom:-5%;
-  right:22%;
-  height:90vh;
+  margin:auto;
+  bottom:3em;
+  right:0;
+  left:0;
+  height:70vh;
   z-index: -9;
 
 }
 .index_info{
-  text-align: left;
   position:absolute;
   padding:2em;
   top:40%;
