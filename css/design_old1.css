@@ -33,8 +33,6 @@
 }
 .olympics img{
   width:13%;
-  background-color: white;
-  border-radius: 50%;
   padding:.5em;
   margin:.5em;
 }
@@ -82,10 +80,8 @@ h1{
   display: block;
   margin-left:auto;
   margin-right:auto;
-  /*
   margin-top: 5em;
-
-  margin-bottom: 5em;*/
+  margin-bottom: 5em;
   padding: 2em;
   width: 75%;
   line-height: 1.5em;
@@ -99,9 +95,6 @@ h1{
 .sandwichwrap img{
   width:100%;
   padding-right: 1em;
-}
-.brochure{
-  width:80%;
 }
 .info{
   text-align: right;
@@ -181,10 +174,6 @@ h1{
     .sandwich{
       width:90%;
       margin:auto;
-      display: none;
-    }
-    .dark{
-      display: none;
     }
     .info, .info-app{
       position: relative;

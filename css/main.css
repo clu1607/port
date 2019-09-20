@@ -11,7 +11,7 @@ body{
 	background: linear-gradient(to right bottom, #F5BFCA 50%, #FCEEF1 50%);
   background-image: linear-gradient(#dde6f9, #f9e0dd);
   */
-  
+  text-align: center;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -167,6 +167,7 @@ nav ul li ul{
 
 }
 .index_info{
+  text-align: left;
   position:absolute;
   padding:2em;
   top:40%;
