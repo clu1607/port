@@ -28,8 +28,10 @@
 .design img {
   width:80%;
   margin: 1em;
+  /*
   object-fit: cover;
   transition: all .2s ease-in-out;
+  */
 }
 .olympics img{
   width:13%;
