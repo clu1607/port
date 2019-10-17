@@ -1,4 +1,4 @@
-.illustration, .pouch {
+.illustration, .pouch, .products {
   position: relative;
   display: block;
   margin:auto;
@@ -16,6 +16,25 @@
   background-color: white;
   transition: all .2s ease-in-out;
 }
+.products img{
+  width:90%;
+  padding:2em;
+  margin-bottom: 2em;
+  background-color: white;
+}
+.info{
+  position: relative;
+  margin:auto;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+  text-align: center;
+  width:80%;
+  font-size:.9em;
+  padding:1em;
+  font-family: 'Open Sans', sans-serif;
+}
 .title{
   color:#38386D;
   
@@ -27,10 +46,14 @@
 }
 h1{
   color:#38386D;
-  position: sticky;
+  margin-bottom: 0;
+ 
+  /*
+  font-family:'Abril Fatface', cursive;
+  */
   letter-spacing: 1px;
-  font-size: 3em;
-  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1em;
   
 }
