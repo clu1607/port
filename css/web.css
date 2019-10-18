@@ -49,6 +49,7 @@
   width:100%;
 }
 .info{
+  color:#525051;
   text-align: right;
   position: absolute;
   font-family: 'Open Sans', sans-serif;
@@ -59,9 +60,9 @@
 }
 .info h1{
   color:#38386D;
-  
-  font-size: 3em;
-  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1em;
 }
 .webcontent a{

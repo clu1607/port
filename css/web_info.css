@@ -37,20 +37,31 @@
   width: 85%;
   line-height: 1.5em;
 }
+.webwrap img{
+  margin:1em;
+}
 .webcontent{
   width:540px;
   background-color: white;
   padding:2em;
   outline: none;
 }
-.webwrap img{
-  width:100%;
+.dh-home{
+  width:40vw;
   margin-bottom: .5em;
 }
+.dh{
+  width:90%;
+}
+
 h1{
   color:#38386D;
+  font-weight: 700;
   font-size: 2em;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1em;
   padding-bottom: .5em;
+}
+h2{
+  font-size: 1em;
 }

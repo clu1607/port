@@ -37,24 +37,19 @@
 }
 .title{
   color:#38386D;
-  
-  margin-bottom: 1em;
-  font-family: 'Ubuntu', sans-serif;
-  letter-spacing: 2px;
-  font-size: 2em;
+  font-weight: 700;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1em;
+  padding-bottom: .5em;
 }
 h1{
   color:#38386D;
-  margin-bottom: 0;
- 
-  /*
-  font-family:'Abril Fatface', cursive;
-  */
-  letter-spacing: 1px;
-  font-size: 2em;
+  font-weight: 700;
+  font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
   line-height: 1em;
+  margin-bottom: 0;
   
 }
 .pouch img{
