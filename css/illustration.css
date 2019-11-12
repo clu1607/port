@@ -158,6 +158,11 @@ section{
 	margin: auto;
 	margin-bottom: 4em;
 	text-align: center;
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: .8s;
+	animation-delay: .6s;
 }
 #photos {
   /* Prevent vertical gaps */
