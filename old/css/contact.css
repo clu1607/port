@@ -1,0 +1,29 @@
+.contactwrap {
+  position:absolute;
+      margin:auto;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+  padding: 1em;
+  width: 500px;
+  height:230px;
+  border-radius: 15px;
+  line-height: 1.5em;
+  background-color: rgba(255,255,255,.7);
+}
+.contact{
+  padding:2em;
+  text-align: left;
+  font-weight: 100;
+}
+.fab, .far, .fa{
+  font-size: 1.3em;
+  font-weight: normal;
+}
+hr{
+  height:1px;
+  border:none;
+  color:#F0E5E5;
+  background-color: #EAD0D0;
+}

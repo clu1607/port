@@ -1,40 +1,160 @@
-.design, .olympics, .lyrics, .signers, .kny {
-  position: relative;
-  display: block;
-  margin:auto;
-  padding: 2em;
-  width: 90%;
-  line-height: 1.5em;
-  text-align: center;
+.design{
+	display: block;
+	margin:4em auto 2em auto;
+	width:50%;
+	text-align: center;
+	font-weight: normal;
+	/*
+	position: sticky;
+	top:0;
+	z-index: 99999;
+	*/
 }
-.signers img{
-  width:23vw;
-  margin:.5em;
-  padding:.75em;
-}
-.design-info{
-  position: relative;
-  margin:auto;
-      top:0;
-      bottom:0;
-      left:0;
-      right:0;
-  text-align: center;
-  width:80%;
-  font-size:.9em;
-  padding:1em;
-  font-family: 'Open Sans', sans-serif;
-}
+.topheader{
+	opacity: 0;
+	
 
-.card{
-  width:34.5vw;
-  margin:1em;
+	animation-name: fadeIn;
+	animation-duration: .8s;
+	animation-fill-mode: forwards;
 }
-.card-mockup{
-  width:80%;
+.title{
+	letter-spacing: 1px;
+	font-size:5em;
+	color:#EC6D99;
+	font-weight: 700;
+	margom-bottom: 0em;
+	padding-bottom: 0em;
+	
 }
-.kny img{
-  width:80%;
+.underline-2{
+	padding:3px;
+	border-bottom:2px solid pink;
+}
+.container p{
+	line-height: 2em;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	font-variant: small-caps;
+	margin-top: 0;
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: .8s;
+	animation-delay: .6s;
+	animation-fill-mode: forwards;
+}
+.design a{
+	color:#EC6D99;
+	text-decoration: none;
+	font-weight: 300;
+}
+.underline{
+	border-bottom:4px solid pink;
+}
+.design nav{
+	font-size: 1em;
+	line-height: 2em;
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: .8s;
+	animation-delay: .3s;
+	animation-fill-mode: forwards;
+}
+.design nav ul{
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+}
+.design nav ul li{
+	display: inline-block;
+	position:relative;
+	padding-right: 2em;
+}
+.design nav ul li a{
+	color:#2C2729;
+	font-weight: 400;
+	text-decoration: none;
+}
+.design nav ul li a:hover{
+	color:#EC6D99;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.container{
+	margin-top: 4em;
+	margin-bottom: 4em;
+	display: grid;
+	grid-template-columns: 250px 250px 250px;
+	grid-template-rows: auto;
+	grid-gap: 3em;
+	text-align: center;
+	justify-content: center;
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: .8s;
+	animation-delay: .6s;
+	animation-fill-mode: forwards;
+}
+.item{
+	width:100%;
+}
+.item img{
+	width:250px;
+	height:150px;
+	object-fit: cover;
+	padding:10px;
+
+	border:1px solid white;
+}
+.item img:hover{
+	opacity: .8;
+	border:1px solid white;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.content{
+	margin: 4em auto 4em auto;
+	position:relative;
+	width:50%;
+	text-align: center;
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: .8s;
+	animation-delay: .6s;
+	animation-fill-mode: forwards;
+}
+.content p{
+	line-height: 2em;
+	font-size:.9em;
+	width:70%;
+	margin: auto;
+}
+.content img{
+	width:100%;
+	margin-top: 1em;
+}
+.content a{
+	text-decoration: none;
+	color:#2C2729;
+	border-bottom:2px solid pink;
+}
+.title2{
+	font-variant: small-caps;
+	font-weight: 700;
+	color:#EC6D99;
+	font-size: 2.5em;
+	letter-spacing: 2px;
+}
+.olympics{
+	margin-top:2em;
+	margin-bottom: 2em;
+	width:100%;
 }
 .olympics img{
   width:13%;
@@ -43,203 +163,21 @@
   padding:.5em;
   margin:.5em;
 }
-.lyrics{
-  position: relative;
-  display: block;
-  margin:auto;
-  padding: 2em;
-  width: 90%;
-  line-height: 1.5em;
-  text-align: center;
+.song-title{
+	padding:1em;
+	letter-spacing: 1px;
+	font-style: italic;
+	font-size: 2em;
+	text-align: right;
 }
-.lyrics img{
-  height:500px;
-  padding: 2em;
-  margin:1em;
-}
-h1{
-  color:#38386D;
-  font-weight: 700;
-  font-size: 2em;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1em;
-  margin-bottom: 0;
- 
-  /*
-  font-family:'Abril Fatface', cursive;
-  */
-  letter-spacing: 1px;
-  /*
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
-  position:absolute;
-  top:1.3em;
-  right:3em;
-  font-size:2.5em;
-  font-style:italic;
-  font-family:'Abril Fatface', cursive;
-  color:#9C8586;
-  letter-spacing: 3px;
-  */
-}
-
-.sandwichwrap {
-  position: relative;
-  display: block;
-  margin-left:auto;
-  margin-right:auto;
-  /*
-  margin-top: 5em;
-
-  margin-bottom: 5em;*/
-  padding: 2em;
-  width: 75%;
-  line-height: 1.5em;
-}
-.sandwich{
-  overflow-x: scroll;
-  white-space: nowrap;
-  width:500px;
-  padding:2em;
-}
-.sandwichwrap img{
-  width:90%;
-  padding-right: 1em;
-}
-.brochure{
-  width:70%;
-}
-.info{
-  text-align: right;
-  position: absolute;
-  font-family: 'Open Sans', sans-serif;
-  font-size:.9em;
-  right:2em;
-  bottom:30%;
-  width:45%;
-}
-.info h1{
-  color:#38386D;
-  font-weight: 700;
-  font-size: 2.5em;
-  font-family: 'Open Sans', sans-serif;
-  
-  /*font-family:'Abril Fatface', cursive;*/
-}
-
-.appwrap {
-  position: relative;
-  display: block;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  padding: 2em;
-  width: 75%;
-  line-height: 1.5em;
-}
-.app{
-  padding:2em;
-  text-align: right;
-}
-.app img{
-  width:500px;
-}
-.info-app{
-  text-align: left;
-  position: absolute;
-  left:10%;
-  bottom:20%;
-  width:35%;
-  font-family: 'Open Sans', sans-serif;
-  font-size:.9em;
-}
-.info-app img{
-  width:150px;
-  padding-top: 1em;
-}
-.info-app h1{
-  color:#38386D;
-  font-weight: 700;
-  font-size: 2.5em;
-  font-family: 'Open Sans', sans-serif;
-  
-  /*font-family:'Abril Fatface', cursive;*/
-}
-.app-link a{
-  color:#38386D;
-  padding-left: 2em;
-}
-@media only screen and (max-width: 730px){
-    .title{
-      font-size:1.5em;
-    }
-}
-@media only screen and (max-width: 1655px){
-    .sandwich{
-      width:400px;
-    }
-   
-}
-@media only screen and (max-width: 1360px){
-  .lyrics img{
-    height:400px;
-  }
-  .design img{
-    width:80%;
-  }
-    .sandwich{
+@media only screen and (max-width: 1130px){
+    .design{
       width:90%;
-      margin:auto;
-      display: none;
     }
-    .dark{
-      display: none;
+    .container{
+    	grid-template-columns: 250px 250px;
     }
-    .info, .info-app{
-      position: relative;
-      text-align: center;
-      margin:auto;
-      top:0;
-      bottom:0;
-      left:0;
-      right:0;
-      width:500px;
+    .content{
+    	width:80%;
     }
-    .info h1{
-      font-size: 2.5em;
-    }
-    .app{
-      width:70%;
-      position: relative;
-      margin:auto;
-      top:0;
-      bottom:0;
-      left:0;
-      right:0;
-      text-align: center;
-    }
-    .app img{
-      width:80%;
-    }
-    .info-app h1{
-      font-size: 2.5em;
-    }
-    .info-app img{
-      width:20%;
-      padding-top: 1em;
-    }
-    .app-link a{
-      color:#857272;
-      padding-left: 0em;
-    }
-}
-@media only screen and (max-width: 1158px){
-  .lyrics img{
-    width:80%;
-    height:100%;
-  }
-  .signers img{
-    width:80%;
-  }
 }

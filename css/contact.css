@@ -1,29 +1,71 @@
-.contactwrap {
-  position:absolute;
-      margin:auto;
-      top:0;
-      bottom:0;
-      left:0;
-      right:0;
-  padding: 1em;
-  width: 500px;
-  height:230px;
-  border-radius: 15px;
-  line-height: 1.5em;
-  background-color: rgba(255,255,255,.7);
-}
 .contact{
-  padding:2em;
-  text-align: left;
-  font-weight: 100;
+	display: block;
+	margin:8em auto 8em auto;
+	width:50%;
+
+	
+	font-weight: normal;
 }
-.fab, .far, .fa{
-  font-size: 1.3em;
-  font-weight: normal;
+.contact h1{
+	letter-spacing: 1px;
+	font-size:5em;
+	color:#EC6D99;
+	font-weight: 700;
+	margin-bottom: .5em;
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: .8s;
+	animation-fill-mode: forwards;
 }
-hr{
-  height:1px;
-  border:none;
-  color:#F0E5E5;
-  background-color: #EAD0D0;
+.contact p{
+	letter-spacing: 2px;
+	line-height: 3em;
+	font-size: 1.3em;
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: .8s;
+	animation-delay: .3s;
+	animation-fill-mode: forwards;
+}
+.contact a{
+	color:#EC6D99;
+	text-decoration: none;
+	font-weight: 300;
+}
+.underline{
+	border-bottom:4px solid pink;
+}
+.contact nav{
+	font-size: 1em;
+	margin-top: 4em;
+	line-height: 2em;
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: .8s;
+	animation-delay: .6s;
+	animation-fill-mode: forwards;
+}
+.contact nav ul{
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+}
+.contact nav ul li{
+	display: inline-block;
+	position:relative;
+	padding-right: 2em;
+}
+.contact nav ul li a{
+	color:#2C2729;
+	font-weight: 400;
+	text-decoration: none;
+}
+.contact nav ul li a:hover{
+	color:#EC6D99;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
