@@ -163,6 +163,7 @@ section{
 	animation-name: fadeIn;
 	animation-duration: .8s;
 	animation-delay: .6s;
+	animation-fill-mode: forwards;
 }
 #photos {
   /* Prevent vertical gaps */
