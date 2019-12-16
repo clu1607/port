@@ -173,6 +173,11 @@
 	margin-bottom: 2em;
 	width:100%;
 }
+video{
+	margin:1em 0 0 1em;
+	width:90%;
+	outline: none;
+}
 .song-title{
 	padding:1em;
 	letter-spacing: 1px;
