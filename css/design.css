@@ -163,6 +163,16 @@
   padding:.5em;
   margin:.5em;
 }
+.kalos img{
+  width:100%;
+  opacity: .8;
+  margin:.5em;
+}
+.kalos{
+	margin-top:2em;
+	margin-bottom: 2em;
+	width:100%;
+}
 .song-title{
 	padding:1em;
 	letter-spacing: 1px;
