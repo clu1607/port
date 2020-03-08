@@ -216,8 +216,8 @@ video{
 	text-align: right;
 }
 @media only screen and (max-width: 1130px){
-    .design{
-      width:90%;
+    .content{
+      width:70%;
     }
     .container{
     	grid-template-columns: 250px 250px;
