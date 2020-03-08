@@ -120,7 +120,7 @@
 .content{
 	margin: 4em auto 4em auto;
 	position:relative;
-	width:50%;
+	width:70%;
 	text-align: center;
 	opacity: 0;
 
@@ -128,6 +128,12 @@
 	animation-duration: .8s;
 	animation-delay: .6s;
 	animation-fill-mode: forwards;
+}
+.rbxcontent p{
+	line-height: 2em;
+	font-size:.9em;
+	width:80%;
+	margin: auto;
 }
 .content p{
 	line-height: 2em;
@@ -151,7 +157,7 @@
 	font-size: 2.5em;
 	letter-spacing: 2px;
 }
-.olympics{
+.olympics, .email{
 	margin-top:2em;
 	margin-bottom: 2em;
 	width:100%;
@@ -163,13 +169,32 @@
   padding:.5em;
   margin:.5em;
 }
+.rbxcontent{
+	margin: 4em auto 4em auto;
+	position:relative;
+	width:70%;
+	text-align: center;
+	opacity: 0;
+
+	animation-name: fadeIn;
+	animation-duration: .8s;
+	animation-delay: .6s;
+	animation-fill-mode: forwards;
+}
+.email img{
+	width:auto;
+  height:500px;
+  background-color: white;
+  padding:.5em;
+  margin:.5em;
+}
 .kalos img{
   width:100%;
   opacity: .8;
   margin:.5em;
 }
 .eblast img{
-  width:90%;
+  width:70%;
   padding:2em;
   border:1px solid #E8E5E5;
 }
@@ -197,7 +222,34 @@ video{
     .container{
     	grid-template-columns: 250px 250px;
     }
-    .content{
-    	width:80%;
-    }
+    .eblast img{
+	  width:90%;
+	}
+    .email img{
+  		width:auto;
+  		height:350px;
+  	}
+  	.rbxcontent{
+  		width:90%;
+  	}
+}
+.lifestyle{
+	display: none;
+}
+@media only screen and (max-width: 700px){
+    
+    .email img{
+  		width:100%;
+  		height:auto;
+  	}
+  	
+  	.rbxcontent{
+  		width:80%;
+  	}
+  	.lifestyle{
+  		display: block;
+  	}
+  	.lifestyle-before{
+  		display: none;
+  	}
 }
